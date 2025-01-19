@@ -95,3 +95,5 @@ dist/
 
 # System files
 Thumbs.db
+
+backend/src/utils/serviceAccountKey.json

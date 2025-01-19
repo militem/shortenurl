@@ -5,45 +5,19 @@
             <div class="flex items-center space-x-4">
                 <!-- Nombre del sistema -->
                 <div class="text-xl font-bold">
-                    <a href="/" class="hover:text-gray-400">Short URL</a>
+                    <router-link to="/" class="hover:text-gray-400">Short URL</router-link>
                 </div>
             </div>
     
             <!-- Menú centrado -->
             <ul class="hidden md:flex space-x-6">
                 <li>
-                    <router-link to="/" class="hover:text-gray-400">Inicio</router-link>
+                    <router-link to="/" class="hover:text-gray-400">Home</router-link>
                 </li>
                 <li>
-                    <a href="#" class="hover:text-gray-400">Docs</a>
-                </li>
-                <li>
-                    <router-link to="/about" class="hover:text-gray-400">About</router-link>
+                    <a href="#" class="hover:text-gray-400">API Docs</a>
                 </li>
             </ul>
-    
-            <!-- Botones de acciones -->
-            <div class="flex items-center space-x-4">
-                <!-- Icono de búsqueda -->
-                <button
-                    class="p-2 rounded hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                    <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    class="w-6 h-6"
-                    >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M11 19a8 8 0 100-16 8 8 0 000 16zm10 2l-4-4"
-                    />
-                    </svg>
-                </button>
-            </div>
         </div>
     </nav>
 </template>
